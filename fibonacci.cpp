@@ -6,7 +6,7 @@ void fibonacci (int);
 
 int main(){
 	// comment this out if calling 'fibonacci'.
-	int n1 =0;
+	/*int n1 =0;
 	int n2 =1;
 	int sum;
 	int counter;
@@ -21,10 +21,10 @@ int main(){
 		cout << sum << " ";
 		fibonacci_swap(n1, n2, sum);
 		++counter;
-	}
+	}*/
 
 	// uncomment this if calling 'fibonacci_swap'
-	//fibonacci (5);
+	fibonacci (15);
 }
 
 int fibonacci_swap(int& n1, int& n2, int temp){
@@ -39,7 +39,6 @@ void fibonacci(int ran)
     int total;
 	int num1 = 0;
 	int num2 = 1;
-	int temp;
 	int ctr;
     while (ctr != ran){
 		if (num1 == 0 && num2 == 1){
@@ -47,11 +46,11 @@ void fibonacci(int ran)
 		}		
 		total = num1 + num2;
 		cout << total << " ";
-		temp = total;
 		num1 = num2;
 		num2 = total;
 		++ ctr;
 	}
+	cout << "\n";
 }
 
 
