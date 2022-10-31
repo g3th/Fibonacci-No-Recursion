@@ -23,7 +23,7 @@ int main(){
 		++counter;
 	}
 
-	// uncomment this if calling 'fibonacci_swap'
+	// comment this out if calling 'fibonacci_swap'
 	//fibonacci (15);
 }
 
