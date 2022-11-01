@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int fibonacci_swap (int&, int&, int);
+void fibonacci_swap (int&, int&, int);
 void fibonacci (int);
 
 int main(){
@@ -27,11 +27,9 @@ int main(){
 	//fibonacci (15);
 }
 
-int fibonacci_swap(int& n1, int& n2, int temp){
+void fibonacci_swap(int& n1, int& n2, int temp){
 	n1 = n2;
 	n2 = temp;
-	return n1;
-	return n2;
 }
 
 void fibonacci(int ran)
